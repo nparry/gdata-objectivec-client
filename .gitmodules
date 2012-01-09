@@ -1,0 +1,9 @@
+[submodule "Submodules/gtm-oauth2"]
+	path = Submodules/gtm-oauth2
+	url = git://github.com/systeam/gtm-oauth2.git
+[submodule "Submodules/gtm-http-fetcher"]
+	path = Submodules/gtm-http-fetcher
+	url = git://github.com/systeam/gtm-http-fetcher.git
+[submodule "Submodules/json-framework"]
+	path = Submodules/json-framework
+	url = git://github.com/stig/json-framework.git

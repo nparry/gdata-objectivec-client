@@ -1251,7 +1251,6 @@
 		4F4DF51E13746F4000F5C554 /* GTMHTTPUploadFetcher.h in Copy Static Library Headers */ = {isa = PBXBuildFile; fileRef = 4F61C6AC1353A654009CEDA4 /* GTMHTTPUploadFetcher.h */; };
 		4F4DF51F13746F4000F5C554 /* GTMOAuth2Authentication.h in Copy Static Library Headers */ = {isa = PBXBuildFile; fileRef = 4F00C3781355026B00DEC154 /* GTMOAuth2Authentication.h */; };
 		4F4DF52013746F4000F5C554 /* GTMOAuth2SignIn.h in Copy Static Library Headers */ = {isa = PBXBuildFile; fileRef = 4F00C37A1355026B00DEC154 /* GTMOAuth2SignIn.h */; };
-		4F4DF52213746F4000F5C554 /* SBJSON.h in Copy Static Library Headers */ = {isa = PBXBuildFile; fileRef = 4FE5D567135FA0320003E5EC /* SBJSON.h */; };
 		4F4DF52A13746F8400F5C554 /* GDataXMLNode.h in Copy Static Library Headers */ = {isa = PBXBuildFile; fileRef = 4F93A5FD0DBD773A0067AE7E /* GDataXMLNode.h */; };
 		4F4DF52E13746F9200F5C554 /* GTMOAuth2ViewControllerTouch.h in Copy Static Library Headers */ = {isa = PBXBuildFile; fileRef = 4F00C3911355029900DEC154 /* GTMOAuth2ViewControllerTouch.h */; };
 		4F4E8DA50EB7E97800C59A7E /* GDataFeedYouTubeFavorite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E8DA30EB7E97800C59A7E /* GDataFeedYouTubeFavorite.m */; };
@@ -2027,12 +2026,6 @@
 		4FE289310C078E7200F12BDB /* GDataDeleted.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2892F0C078E7200F12BDB /* GDataDeleted.m */; };
 		4FE289320C078E7200F12BDB /* GDataDeleted.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2892F0C078E7200F12BDB /* GDataDeleted.m */; };
 		4FE289360C078E7C00F12BDB /* GDataDeleted.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE289350C078E7C00F12BDB /* GDataDeleted.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FE5D569135FA0320003E5EC /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE5D567135FA0320003E5EC /* SBJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FE5D56A135FA0320003E5EC /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5D568135FA0320003E5EC /* SBJSON.m */; };
-		4FE5D56B135FA0320003E5EC /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5D568135FA0320003E5EC /* SBJSON.m */; };
-		4FE5D56C135FA0320003E5EC /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5D568135FA0320003E5EC /* SBJSON.m */; };
-		4FE5D56D135FA0320003E5EC /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5D568135FA0320003E5EC /* SBJSON.m */; };
-		4FE5D56E135FA0320003E5EC /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE5D568135FA0320003E5EC /* SBJSON.m */; };
 		4FE640C310E00E46007D2F65 /* GDataAnalyticsCustomVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE640C110E00E46007D2F65 /* GDataAnalyticsCustomVariable.m */; };
 		4FE640C410E00E46007D2F65 /* GDataAnalyticsCustomVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FE640C210E00E46007D2F65 /* GDataAnalyticsCustomVariable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4FE640C510E00E46007D2F65 /* GDataAnalyticsCustomVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE640C110E00E46007D2F65 /* GDataAnalyticsCustomVariable.m */; };
@@ -2477,7 +2470,6 @@
 				4F4DF51E13746F4000F5C554 /* GTMHTTPUploadFetcher.h in Copy Static Library Headers */,
 				4F4DF51F13746F4000F5C554 /* GTMOAuth2Authentication.h in Copy Static Library Headers */,
 				4F4DF52013746F4000F5C554 /* GTMOAuth2SignIn.h in Copy Static Library Headers */,
-				4F4DF52213746F4000F5C554 /* SBJSON.h in Copy Static Library Headers */,
 			);
 			name = "Copy Static Library Headers";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3108,8 +3100,6 @@
 		4FDFC1B50DDB69E30089A011 /* GDataFinanceTransactionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataFinanceTransactionData.m; path = Clients/Finance/GDataFinanceTransactionData.m; sourceTree = "<group>"; };
 		4FE2892F0C078E7200F12BDB /* GDataDeleted.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = GDataDeleted.m; path = Elements/GDataDeleted.m; sourceTree = "<group>"; };
 		4FE289350C078E7C00F12BDB /* GDataDeleted.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GDataDeleted.h; path = Elements/GDataDeleted.h; sourceTree = "<group>"; };
-		4FE5D567135FA0320003E5EC /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJSON.h; path = JSON/SBJSON.h; sourceTree = "<group>"; };
-		4FE5D568135FA0320003E5EC /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJSON.m; path = JSON/SBJSON.m; sourceTree = "<group>"; };
 		4FE640C110E00E46007D2F65 /* GDataAnalyticsCustomVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataAnalyticsCustomVariable.m; path = Clients/Analytics/GDataAnalyticsCustomVariable.m; sourceTree = "<group>"; };
 		4FE640C210E00E46007D2F65 /* GDataAnalyticsCustomVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataAnalyticsCustomVariable.h; path = Clients/Analytics/GDataAnalyticsCustomVariable.h; sourceTree = "<group>"; };
 		4FE640D410E00E8F007D2F65 /* GDataAnalyticsGoal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataAnalyticsGoal.m; path = Clients/Analytics/GDataAnalyticsGoal.m; sourceTree = "<group>"; };
@@ -3170,6 +3160,31 @@
 		4FFF313C0D6BA16100CD9B59 /* GDataDocs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GDataDocs.h; path = Clients/Docs/GDataDocs.h; sourceTree = "<group>"; };
 		4FFF314F0D6BA22300CD9B59 /* GDataEntrySpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GDataEntrySpreadsheet.h; sourceTree = "<group>"; };
 		4FFF31620D6BA2AB00CD9B59 /* GDataSpreadsheet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GDataSpreadsheet.h; sourceTree = "<group>"; };
+		5B4BF9BE14697BD8004363C7 /* NSObject+SBJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJson.h"; path = "../Submodules/json-framework/Classes/NSObject+SBJson.h"; sourceTree = "<group>"; };
+		5B4BF9BF14697BD8004363C7 /* NSObject+SBJson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJson.m"; path = "../Submodules/json-framework/Classes/NSObject+SBJson.m"; sourceTree = "<group>"; };
+		5B4BF9C014697BD8004363C7 /* SBJson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJson.h; path = "../Submodules/json-framework/Classes/SBJson.h"; sourceTree = "<group>"; };
+		5B4BF9C114697BD8004363C7 /* SBJsonParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = "../Submodules/json-framework/Classes/SBJsonParser.h"; sourceTree = "<group>"; };
+		5B4BF9C214697BD8004363C7 /* SBJsonParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = "../Submodules/json-framework/Classes/SBJsonParser.m"; sourceTree = "<group>"; };
+		5B4BF9C314697BD8004363C7 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParser.h; path = "../Submodules/json-framework/Classes/SBJsonStreamParser.h"; sourceTree = "<group>"; };
+		5B4BF9C414697BD8004363C7 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParser.m; path = "../Submodules/json-framework/Classes/SBJsonStreamParser.m"; sourceTree = "<group>"; };
+		5B4BF9C514697BD8004363C7 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAccumulator.h; path = "../Submodules/json-framework/Classes/SBJsonStreamParserAccumulator.h"; sourceTree = "<group>"; };
+		5B4BF9C614697BD8004363C7 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAccumulator.m; path = "../Submodules/json-framework/Classes/SBJsonStreamParserAccumulator.m"; sourceTree = "<group>"; };
+		5B4BF9C714697BD8004363C7 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserAdapter.h; path = "../Submodules/json-framework/Classes/SBJsonStreamParserAdapter.h"; sourceTree = "<group>"; };
+		5B4BF9C814697BD8004363C7 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserAdapter.m; path = "../Submodules/json-framework/Classes/SBJsonStreamParserAdapter.m"; sourceTree = "<group>"; };
+		5B4BF9C914697BD8004363C7 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamParserState.h; path = "../Submodules/json-framework/Classes/SBJsonStreamParserState.h"; sourceTree = "<group>"; };
+		5B4BF9CA14697BD8004363C7 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamParserState.m; path = "../Submodules/json-framework/Classes/SBJsonStreamParserState.m"; sourceTree = "<group>"; };
+		5B4BF9CB14697BD8004363C7 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriter.h; path = "../Submodules/json-framework/Classes/SBJsonStreamWriter.h"; sourceTree = "<group>"; };
+		5B4BF9CC14697BD8004363C7 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriter.m; path = "../Submodules/json-framework/Classes/SBJsonStreamWriter.m"; sourceTree = "<group>"; };
+		5B4BF9CD14697BD8004363C7 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterAccumulator.h; path = "../Submodules/json-framework/Classes/SBJsonStreamWriterAccumulator.h"; sourceTree = "<group>"; };
+		5B4BF9CE14697BD8004363C7 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterAccumulator.m; path = "../Submodules/json-framework/Classes/SBJsonStreamWriterAccumulator.m"; sourceTree = "<group>"; };
+		5B4BF9CF14697BD8004363C7 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonStreamWriterState.h; path = "../Submodules/json-framework/Classes/SBJsonStreamWriterState.h"; sourceTree = "<group>"; };
+		5B4BF9D014697BD8004363C7 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonStreamWriterState.m; path = "../Submodules/json-framework/Classes/SBJsonStreamWriterState.m"; sourceTree = "<group>"; };
+		5B4BF9D114697BD8004363C7 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonTokeniser.h; path = "../Submodules/json-framework/Classes/SBJsonTokeniser.h"; sourceTree = "<group>"; };
+		5B4BF9D214697BD8004363C7 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonTokeniser.m; path = "../Submodules/json-framework/Classes/SBJsonTokeniser.m"; sourceTree = "<group>"; };
+		5B4BF9D314697BD8004363C7 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonUTF8Stream.h; path = "../Submodules/json-framework/Classes/SBJsonUTF8Stream.h"; sourceTree = "<group>"; };
+		5B4BF9D414697BD8004363C7 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonUTF8Stream.m; path = "../Submodules/json-framework/Classes/SBJsonUTF8Stream.m"; sourceTree = "<group>"; };
+		5B4BF9D514697BD8004363C7 /* SBJsonWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = "../Submodules/json-framework/Classes/SBJsonWriter.h"; sourceTree = "<group>"; };
+		5B4BF9D614697BD8004363C7 /* SBJsonWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = "../Submodules/json-framework/Classes/SBJsonWriter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -4217,8 +4232,31 @@
 		4FE5D562135F9FF30003E5EC /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				4FE5D567135FA0320003E5EC /* SBJSON.h */,
-				4FE5D568135FA0320003E5EC /* SBJSON.m */,
+				5B4BF9BE14697BD8004363C7 /* NSObject+SBJson.h */,
+				5B4BF9BF14697BD8004363C7 /* NSObject+SBJson.m */,
+				5B4BF9C014697BD8004363C7 /* SBJson.h */,
+				5B4BF9C114697BD8004363C7 /* SBJsonParser.h */,
+				5B4BF9C214697BD8004363C7 /* SBJsonParser.m */,
+				5B4BF9C314697BD8004363C7 /* SBJsonStreamParser.h */,
+				5B4BF9C414697BD8004363C7 /* SBJsonStreamParser.m */,
+				5B4BF9C514697BD8004363C7 /* SBJsonStreamParserAccumulator.h */,
+				5B4BF9C614697BD8004363C7 /* SBJsonStreamParserAccumulator.m */,
+				5B4BF9C714697BD8004363C7 /* SBJsonStreamParserAdapter.h */,
+				5B4BF9C814697BD8004363C7 /* SBJsonStreamParserAdapter.m */,
+				5B4BF9C914697BD8004363C7 /* SBJsonStreamParserState.h */,
+				5B4BF9CA14697BD8004363C7 /* SBJsonStreamParserState.m */,
+				5B4BF9CB14697BD8004363C7 /* SBJsonStreamWriter.h */,
+				5B4BF9CC14697BD8004363C7 /* SBJsonStreamWriter.m */,
+				5B4BF9CD14697BD8004363C7 /* SBJsonStreamWriterAccumulator.h */,
+				5B4BF9CE14697BD8004363C7 /* SBJsonStreamWriterAccumulator.m */,
+				5B4BF9CF14697BD8004363C7 /* SBJsonStreamWriterState.h */,
+				5B4BF9D014697BD8004363C7 /* SBJsonStreamWriterState.m */,
+				5B4BF9D114697BD8004363C7 /* SBJsonTokeniser.h */,
+				5B4BF9D214697BD8004363C7 /* SBJsonTokeniser.m */,
+				5B4BF9D314697BD8004363C7 /* SBJsonUTF8Stream.h */,
+				5B4BF9D414697BD8004363C7 /* SBJsonUTF8Stream.m */,
+				5B4BF9D514697BD8004363C7 /* SBJsonWriter.h */,
+				5B4BF9D614697BD8004363C7 /* SBJsonWriter.m */,
 			);
 			name = JSON;
 			sourceTree = "<group>";
@@ -4620,7 +4658,6 @@
 				4F00C3841355026B00DEC154 /* GTMOAuth2Authentication.h in Headers */,
 				4F00C3861355026B00DEC154 /* GTMOAuth2SignIn.h in Headers */,
 				4F00C38F1355028700DEC154 /* GTMOAuth2WindowController.h in Headers */,
-				4FE5D569135FA0320003E5EC /* SBJSON.h in Headers */,
 				4F2EA5CB13AAD74000E9C96E /* GDataFeedDocChange.h in Headers */,
 				4F2EA5DA13AAE6EE00E9C96E /* GDataEntryDocChange.h in Headers */,
 				4F71B1F313DA13E500B955AC /* GDataDocElements.h in Headers */,
@@ -4727,6 +4764,9 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "GData" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -5123,7 +5163,6 @@
 				4F61C6BC1353A654009CEDA4 /* GTMHTTPUploadFetcher.m in Sources */,
 				4F00C3801355026B00DEC154 /* GTMOAuth2Authentication.m in Sources */,
 				4F00C3811355026B00DEC154 /* GTMOAuth2SignIn.m in Sources */,
-				4FE5D56C135FA0320003E5EC /* SBJSON.m in Sources */,
 				4F2EA5CE13AAD74000E9C96E /* GDataFeedDocChange.m in Sources */,
 				4F2EA5DD13AAE6EE00E9C96E /* GDataEntryDocChange.m in Sources */,
 				4F71B1F213DA13E500B955AC /* GDataDocElements.m in Sources */,
@@ -5424,7 +5463,6 @@
 				4F00C37C1355026B00DEC154 /* GTMOAuth2Authentication.m in Sources */,
 				4F00C37D1355026B00DEC154 /* GTMOAuth2SignIn.m in Sources */,
 				4F00C38C1355028700DEC154 /* GTMOAuth2WindowController.m in Sources */,
-				4FE5D56E135FA0320003E5EC /* SBJSON.m in Sources */,
 				4F2EA5D013AAD74000E9C96E /* GDataFeedDocChange.m in Sources */,
 				4F2EA5DF13AAE6EE00E9C96E /* GDataEntryDocChange.m in Sources */,
 				4F71B1F713DA13E500B955AC /* GDataDocElements.m in Sources */,
@@ -5724,7 +5762,6 @@
 				4F00C3821355026B00DEC154 /* GTMOAuth2Authentication.m in Sources */,
 				4F00C3831355026B00DEC154 /* GTMOAuth2SignIn.m in Sources */,
 				4F00C3941355029900DEC154 /* GTMOAuth2ViewControllerTouch.m in Sources */,
-				4FE5D56B135FA0320003E5EC /* SBJSON.m in Sources */,
 				4F2EA5CD13AAD74000E9C96E /* GDataFeedDocChange.m in Sources */,
 				4F2EA5DC13AAE6EE00E9C96E /* GDataEntryDocChange.m in Sources */,
 				4F71B1F513DA13E500B955AC /* GDataDocElements.m in Sources */,
@@ -6023,7 +6060,6 @@
 				4F00C3851355026B00DEC154 /* GTMOAuth2Authentication.m in Sources */,
 				4F00C3871355026B00DEC154 /* GTMOAuth2SignIn.m in Sources */,
 				4F00C3901355028700DEC154 /* GTMOAuth2WindowController.m in Sources */,
-				4FE5D56A135FA0320003E5EC /* SBJSON.m in Sources */,
 				4F2EA5CC13AAD74000E9C96E /* GDataFeedDocChange.m in Sources */,
 				4F2EA5DB13AAE6EE00E9C96E /* GDataEntryDocChange.m in Sources */,
 				4F71B1F413DA13E500B955AC /* GDataDocElements.m in Sources */,
@@ -6332,7 +6368,6 @@
 				4F61C6B71353A654009CEDA4 /* GTMHTTPUploadFetcher.m in Sources */,
 				4F00C37E1355026B00DEC154 /* GTMOAuth2Authentication.m in Sources */,
 				4F00C37F1355026B00DEC154 /* GTMOAuth2SignIn.m in Sources */,
-				4FE5D56D135FA0320003E5EC /* SBJSON.m in Sources */,
 				4F2EA5CF13AAD74000E9C96E /* GDataFeedDocChange.m in Sources */,
 				4F2EA5DE13AAE6EE00E9C96E /* GDataEntryDocChange.m in Sources */,
 				4F71B1F613DA13E500B955AC /* GDataDocElements.m in Sources */,
